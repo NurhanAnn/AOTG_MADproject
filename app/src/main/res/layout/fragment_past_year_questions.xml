@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".PastYearQuestions">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <TextView
+            android:id="@+id/TVPaper"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="81dp"
+            android:layout_marginEnd="26dp"
+            android:text="Choose category of past year questions:"
+            android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <Button
+            android:id="@+id/BtnSPMRSM"
+            android:layout_width="200dp"
+            android:layout_height="150dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginEnd="106dp"
+            android:backgroundTint="#8DBBBD"
+            android:drawableTop="@drawable/logo_maktab_rendah_sains_mara__mrsm___2_"
+            android:text="Sijil Pendidikan MRSM (SPMRSM)"
+            android:textSize="12sp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/TVPaper" />
+
+        <Button
+            android:id="@+id/BtnSBP"
+            android:layout_width="200dp"
+            android:layout_height="150dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginEnd="104dp"
+            android:backgroundTint="#8DBBBD"
+            android:drawableTop="@drawable/sbp__2_"
+            android:text="SBP Trial"
+            android:textSize="12sp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/BtnSPMRSM" />
+
+        <Button
+            android:id="@+id/BtnSPM"
+            android:layout_width="200dp"
+            android:layout_height="150dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginEnd="104dp"
+            android:backgroundTint="#8DBBBD"
+            android:drawableTop="@drawable/spm_removebg_preview__3_"
+            android:text="Sijil Pelajaran Malaysia (SPM)"
+            android:textSize="12sp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/BtnSBP" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</FrameLayout>
