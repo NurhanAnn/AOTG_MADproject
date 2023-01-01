@@ -1,4 +1,4 @@
-package com.example.practical4_task2;
+package com.example.AOTG_MADproject;
 
 import android.os.Bundle;
 
@@ -10,10 +10,10 @@ import android.view.ViewGroup;
 
 /**
  * A simple {@link Fragment} subclass.
- * Use the {@link AddMarks#newInstance} factory method to
+ * Use the {@link MyProfile#newInstance} factory method to
  * create an instance of this fragment.
  */
-public class AddMarks extends Fragment {
+public class MyProfile extends Fragment {
 
     // TODO: Rename parameter arguments, choose names that match
     // the fragment initialization parameters, e.g. ARG_ITEM_NUMBER
@@ -24,7 +24,7 @@ public class AddMarks extends Fragment {
     private String mParam1;
     private String mParam2;
 
-    public AddMarks() {
+    public MyProfile() {
         // Required empty public constructor
     }
 
@@ -34,11 +34,11 @@ public class AddMarks extends Fragment {
      *
      * @param param1 Parameter 1.
      * @param param2 Parameter 2.
-     * @return A new instance of fragment AddMarks.
+     * @return A new instance of fragment MyProfile.
      */
     // TODO: Rename and change types and number of parameters
-    public static AddMarks newInstance(String param1, String param2) {
-        AddMarks fragment = new AddMarks();
+    public static MyProfile newInstance(String param1, String param2) {
+        MyProfile fragment = new MyProfile();
         Bundle args = new Bundle();
         args.putString(ARG_PARAM1, param1);
         args.putString(ARG_PARAM2, param2);
@@ -59,6 +59,6 @@ public class AddMarks extends Fragment {
     public View onCreateView(LayoutInflater inflater, ViewGroup container,
                              Bundle savedInstanceState) {
         // Inflate the layout for this fragment
-        return inflater.inflate(R.layout.fragment_add_marks, container, false);
+        return inflater.inflate(R.layout.fragment_my_profile, container, false);
     }
 }

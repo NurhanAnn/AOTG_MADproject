@@ -1,13 +1,8 @@
-package com.example.practical4_task2;
+package com.example.AOTG_MADproject;
 
 import androidx.appcompat.app.AppCompatActivity;
-import androidx.constraintlayout.widget.ConstraintLayout;
 
-import android.graphics.Color;
 import android.os.Bundle;
-import android.view.View;
-import android.widget.Button;
-import android.widget.CheckBox;
 
 public class MainActivity extends AppCompatActivity {
 

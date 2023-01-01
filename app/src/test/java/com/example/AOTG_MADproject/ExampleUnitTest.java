@@ -1,4 +1,4 @@
-package com.example.practical4_task2;
+package com.example.AOTG_MADproject;
 
 import org.junit.Test;
 
